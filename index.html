@@ -1,397 +1,281 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE-edge">
-  <meta name="viewport" content="width=device-width, initial scale=1.0">
-  <title>Cara</title>
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-  <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay's Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
 </head>
-
 <body>
-  <section id="header">
-    <img src="Assets/logo.png" class="logo" alt="">
-    <div>
-      <ul id="navbar">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="shop.html">Products</a></li>
-        <li><a href="sproduct.html">Products View</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
-        <a href="#" id="close"><i class="far fa-times"></i></a>
-      </ul>
-    </div>
-    <div id="mobile">
-      <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
-      <i id="bar" class="fas fa-outdent"></i>
-    </div>
-  </section>
-  <section id="hero">
-    <h2><b>Pretty Vibe!</b></h2>
-    <h3>Why fit in? When you were born to stand out!</h3>
-    <a href="explore.html"><button>Shop Now</button></a>
-  </section>
-  <section id="heading">
-    <h2>Features</h2>
-  </section>
-  <section id="feature" class="section-p1">
-    <div class="fe-box">
-      <img src="Assets/f1.png" alt="">
-      <h6>Free Shipping</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Assets/f2.png" alt="">
-      <h6>Online Order</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Assets/f3.png" alt="">
-      <h6>Save Money</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Assets/f4.png" alt="">
-      <h6>Promotions</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Assets/f5.png" alt="">
-      <h6>Happy Sell</h6>
-    </div>
-    <div class="fe-box">
-      <img src="Assets/f6.png" alt="">
-      <h6>24/7 Support</h6>
-    </div>
-  </section>
-  <section id="product1" class="section-p1">
-    <h2>Latest Products</h2>
-    <p>Summer Collection</p>
-    <div class="pro-container">
-      <div class="pro">
-        <img src="Assets/f1.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$35</h4>
+    
+    <header>
+        <div class="navBar">
+            <!-- <div class="navLogo">
+                <a href="#">
+                    <img id="logo" src="./Assets/Logo.jpg" alt="My Photo">
+                </a>
+            </div> -->
+            <div class="navElements">
+                <ul class="navList">
+                    <li id="navListItem">
+                        <a class="active" id="homeButton" href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li id="navListItem">
+                        <a id="aboutButton" href="#aboutMe">
+                            About Me
+                        </a>
+                    </li >
+                    <li id="navListItem">
+                        <a id="worksButton" href="#myWorks">
+                            My Works
+                        </a>
+                    </li>
+                    <!-- <li id="navListItem">
+                        <a href="#">
+                            My Data
+                        </a>
+                    </li> -->
+                    <li id="navListItem">
+                        <a id="contactButton" href="#contactMe">
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/f2.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$32</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/f3.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$27</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/f4.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$30</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/f5.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$29</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/f6.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$68</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/f7.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut Pajamas</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$45</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/f8.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut Top</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$56</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-    </div>
-  </section>
-  <section id="banner" class="section-m1">
-    <h4>Occassional Sale</h4>
-    <h2>Up to <span>70% Off</span> - All T-Shirts & Accessories</h2>
-    <a href="explore.html"><button class="normal">Explore More</button></a>
-  </section>
-  <section id="product1" class="section-p1">
-    <h2>New Arrivals</h2>
-    <p>Explore Now!</p>
-    <div class="pro-container">
-      <div class="pro">
-        <img src="Assets/n1.jpg" alt="">
-        <div class="des">
-          <span>H&M</span>
-          <h5>Cartoon Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$70</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/n2.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$32</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/n3.jpg" alt="">
-        <div class="des">
-          <span>asos</span>
-          <h5>Cartoon Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$47</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/n4.jpg" alt="">
-        <div class="des">
-          <span>H&M</span>
-          <h5>Half-sleeve Shirt</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$66</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/n5.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$29</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/n6.jpg" alt="">
-        <div class="des">
-          <span>AEO INC.</span>
-          <h5>Cartoon Astronaut Shorts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$68</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/n7.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$53</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-      <div class="pro">
-        <img src="Assets/n8.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Half-sleeve Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$56</h4>
-        </div>
-        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-      </div>
-    </div>
-  </section>
-  <section id="sm-banner" class="section-p1">
-    <div class="banner-box">
-      <h4>Crazy Deal</h4>
-      <h2>Buy 1 Get 1 free</h2>
-      <span>The best classic dress is on sale at Cara</span>
-      <a href="explore.html"><button class="white">Learn More</button></a>
-    </div>
-    <div class="banner-box banner-box2">
-      <h4>Spring/Winter</h4>
-      <h2>Upcoming Season</h2>
-      <span>Best collections at Cara</span>
-      <a href="explore.html"><button class="white">Collection</button></a>
-    </div>
-  </section>
-  <section id="newsletter" class="section-p1 section-m1">
-    <div class="newstext">
-      <h4>Sign Up for Newsletters</h4>
-      <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
-    </div>
-    <div class="form">
-      <input type="text" placeholder="Your email address">
-      <button class="normal">Sign Up</button>
-    </div>
-  </section>
-  <footer class="section-p1">
-    <div class="col">
-      <img class="logo" src="Assets/logo.png" alt="">
-      <h4>Contact</h4>
-      <p><b>Address:</b> 562 Wellington Road, Street 32, San Francisco</p>
-      <p><b>Phone:</b> +81 2222 365 /(+91) 01 2345 6789</p>
-      <p><b>Hours:</b> 10:00 - 18:00, Mon - Sat</p>
-      <div class="follow">
-        <h4>Follow Us</h4>
-        <div class="icon">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-pinterest"></i>
-          <i class="fab fa-youtube"></i>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <h4>About</h4>
-      <a href="#">About Us</a>
-      <a href="#">Delivery Information</a>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms & Conditions</a>
-      <a href="#">Contact Us</a>
-    </div>
-    <div class="col">
-      <h4>My Account</h4>
-      <a href="#">Sign In</a>
-      <a href="#">View Cart</a>
-      <a href="#">My Wishlist</a>
-      <a href="#">Track My Order</a>
-      <a href="#">Help</a>
-    </div>
-    <div class="col install">
-      <h4>Install App</h4>
-      <p>From App Store or Google Play</p>
-      <div class="row">
-        <img src="Assets/app.jpg" alt="">
-        <img src="Assets/play.jpg" alt="">
-      </div>
-      <p>Secured Payment Gateways</p>
-      <img src="Assets/pay.png" alt="">
-    </div>
-    <div class="copyright">
-      <p><i class="far fa-copyright"></i> 2023, Cara - Ecommerce Website</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+    </header>
 
+    <main>
+        <div class="hero" id="home">
+            <div class="heroText">
+                <h1>Hi,<br><h1 id="animate">I'm <span>Akshay</span></h1></h1>
+            </div>
+            <div class="heroImage">
+                <img src="./Assets/profile-pic (1).png" alt="Profile Pic">
+            </div>
+        </div>
+
+        <div class="aboutMe" id="aboutMe">
+            <div class="aboutHeading">
+                <h1>About Me</h1>
+                <p id="about"><strong>
+                    I am an ambitious and hardworking individual who is seeking a challenging position in a competitive environment where I can enhance my skills and knowledge, showcase my abilities, and be a valuable asset to the organization's growth. I am always willing to go the extra mile and confident that I can make a significant contribution to the organization.
+                </strong></p>
+            </div>
+
+            <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+            slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+            coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false" navigation="true">
+                <swiper-slide>
+                    <div class="education">
+                        <h2><strong>Education</strong></h2>
+                        <div class="edu">
+                            <p id="eduTitle"><strong>Bachelor's of Technology</strong></p>
+                            <p id="eduClg">Raghu Engineering College</p>
+                            <p id="eduTime">2020-2024</p>
+                        </div>
+                        <div class="edu">
+                            <p id="eduTitle"><strong>Intermediate</strong></p>
+                            <p id="eduClg">Narayana Junior College</p>
+                            <p id="eduTime">2018-2020</p>
+                        </div>
+                        <div class="edu">
+                            <p id="eduTitle"><strong>HighSchool</strong></p>
+                            <p id="eduClg">St.Francis School</p>
+                            <p id="eduTime">2017-2018</p>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="skills">
+                        <h2><strong>Skills</strong></h2>
+                        <div class="skill">
+                            <p id="skillTitle"><strong>Programming Languages</strong></p>
+                            <ul>
+                                <li>C, C++, Python, PHP</li>
+                                <li>HTML, CSS, JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="skill">
+                            <p id="skillTitle"><strong>Technologies</strong></p>
+                            <ul>
+                                <li>Frontend Development</li>
+                                <li>Machine Learning</li>
+                                <li>Database Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="internships">
+                        <h2><strong>Internships</strong></h2>
+                        <div class="internship">
+                            <ul><li><p id="internTitle">Web Development Internship at Digital Bhem (virtual)</p></li></ul>
+                            <!-- <p id="internTime">15-07-2023 to 15-08-2023</p> -->
+                        </div>
+                        <div class="internship">
+                            <ul><li><p id="internTitle">Applied Data Science powered by Google (virtual)</p></li></ul>
+                            <!-- <p id="internTime">Ongoing</p> -->
+                        </div>
+                        <div class="internship">
+                            <ul><li><p id="internTitle">AWS academy internship in cloud foundations (virtual)</p></li></ul>
+                        </div>
+                        <div class="internship">
+                            <ul><li><p id="internTitle">Community Service Internship on Plantation (180 hours)</p></li></ul>
+                            <!-- <p id="internTime">180 hours</p> -->
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="achievements">
+                        <h2><strong>Achievements</strong></h2>
+                        <div class="achievementsList">
+                            <ul>
+                                <li>NPTEL Topper with Elite+Gold certification in Programming,Data Structures and Algorithms Using Python.</li>
+                                <li>NPTEL Topper with Elite certification in Data BaseManagement Systems.</li>
+                                <li>NPTEL Topper with Elite+Silver certification in Introduction to Internet of Things.</li>
+                                <li>Secured second place in a coding hackathon held in college.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </swiper-slide>
+            </swiper-container>
+
+
+            <!-- <div class="aboutContents">
+                <div class="education">
+                    <h2><strong>Education</strong></h2>
+                    <div class="edu">
+                        <p id="eduTitle"><strong>Bachelor's of Technology</strong></p>
+                        <p id="eduClg">Raghu Engineering College</p>
+                        <p id="eduTime">2020-2024</p>
+                    </div>
+                    <div class="edu">
+                        <p id="eduTitle"><strong>Intermediate</strong></p>
+                        <p id="eduClg">Narayana Junior College</p>
+                        <p id="eduTime">2018-2020</p>
+                    </div>
+                    <div class="edu">
+                        <p id="eduTitle"><strong>HighSchool</strong></p>
+                        <p id="eduClg">St.Francis School</p>
+                        <p id="eduTime">2017-2018</p>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h2><strong>Skills</strong></h2>
+                    <div class="skill">
+                        <p id="skillTitle"><strong>Programming Languages</strong></p>
+                        <ul>
+                            <li>C, C++, Python, PHP</li>
+                            <li>HTML, CSS, JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill">
+                        <p id="skillTitle"><strong>Technologies</strong></p>
+                        <ul>
+                            <li>Frontend Development</li>
+                            <li>Machine Learning</li>
+                            <li>Database Management</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="internships">
+                    <h2><strong>Internships</strong></h2>
+                    <div class="internship">
+                        <p id="internTitle"><strong>Web Development Internship at Digital Bhem (virtual)</strong></p>
+                        <p id="internTime">15-07-2023 to 15-08-2023</p>
+                    </div>
+                    <div class="internship">
+                        <p id="internTitle"><strong>Machine Learning Internship by Smartbridge (virtual)</strong></p>
+                        <p id="internTime">Ongoing</p>
+                    </div>
+                    <div class="internship">
+                        <p id="internTitle"><strong>AWS academy internship in cloud foundations (virtual)</strong></p>
+                    </div>
+                    <div class="internship">
+                        <p id="internTitle"><strong>Community Service Internship on Plantation</strong></p>
+                        <p id="internTime">180 hours</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        
+        <div class="myWorks" id="myWorks">
+            <h1><strong>My Works</strong></h1>
+            <div class="projects">
+                <div class="project">
+                    <a href="https://akshay-chandra-07.github.io/" target="_blank"><img src="./Assets/Cara Pimage.jpeg" alt=""></a>
+                    <h3>E-Commerce Website</h3>
+                </div>
+                <div class="project">
+                    <a href="
+                    https://drive.google.com/file/d/1kGyKe9pP53qiPs0McJo_gt9zQ0SmvVdw/view?usp=drive_link
+                     " target="_blank"><img src="./Assets/Flight Pimage.png" alt=""></a>
+                    <h3>Flight Fare Prediction</h3>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/Akshay-Chandra-07/Amazon-Clone-Homepage/blob/main/index.html" target="_blank"><img src="./Assets/Amazon Pimage.jpg" alt=""></a>
+                    <h3>Amazon Homepage Clone</h3>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/Akshay-Chandra-07/Bike-Rental-Demand-Prediction/blob/main/My%20Project.ipynb" target="_blank"><img src="./Assets/Bike Pimage.jpg" alt=""></a>
+                    <h3>Bike Rental Demand Prediction</h3>
+                </div>
+            </div>
+            <div class="extras">
+                <a href="https://github.com/Akshay-Chandra-07" target="_blank"><button>See More</button></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contactMe" id="contactMe">
+            <div class="section1">
+                <h1><strong>Contact Me</strong></h1>
+                <div class="contactContent">
+                    <a href=""><i class="fa-solid fa-at"></i>akshaybandi202@gmail.com</a>
+                    <a href=""><i class="fa-solid fa-phone"></i>8886181670</a>
+                </div>
+                <div class="contactIcons">
+                    <a href="https://www.instagram.com/_akshay.__.07/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Akshay-Chandra-07" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/akshay-chandra-bandi" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" class="downloadCvMobile"><button>Download CV</button></a>
+                </div>
+                <div class="downloadCv">
+                    <a href="./Assets/Akshay_Resume_5thOct_1.pdf" download ><button>Download CV</button></a>
+                </div>
+            </div>
+            <form class="section2" id="contactForm" action="./index.html" method="post">
+                <input class="inputContainers" id="name" name="name" type="text" placeholder="Your Name" required>
+                <input class="inputContainers" id="email" type="email" name="email" placeholder="Your Email" required>
+                <textarea class="inputContainers" id="text" type="textArea" name="message" placeholder="Message" rows="10" cols="5" required></textarea>
+                <textarea class="inputContainers" id="dummytext" type="textArea" name="dummymessage" placeholder="Message" rows="10" cols="5" required style="display: none;"></textarea>
+                <input onclick="sendMail()" class="inputContainers" id="submit" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="copyright">
+            <p>@2023 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script src="script.js"></script>
+</body>
 </html>
